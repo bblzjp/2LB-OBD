@@ -20,7 +20,7 @@ int Serial_Gprs_Init(void)
 	}
     set_tty_option(gprs_fd, 115200, 8, 'N', 1);
 }
-
+//test/git/test
 int gps_init(void){
     BDfd = open(TD_DEV,O_RDWR | O_NOCTTY);
 	printf("fd is %d\n",BDfd);
